@@ -16,8 +16,7 @@ This project detects the presence and location of kidney stones from ultrasound 
 - Accepts JPG, PNG, JPEG input images
 - Converts RGB images to grayscale
 - Applies median filtering to remove speckle noise
-
-![Preprocessing](<img width="841" height="580" alt="image" src="https://github.com/user-attachments/assets/fcf59559-7b35-488e-bacf-cf02f3210f11" />
+(<img width="841" height="580" alt="image" src="https://github.com/user-attachments/assets/fcf59559-7b35-488e-bacf-cf02f3210f11" />
 )
 
 ### 2. Thresholding & Morphological Processing
@@ -25,7 +24,7 @@ This project detects the presence and location of kidney stones from ultrasound 
 - Morphological closing fills gaps in detected regions
 - Small artifacts removed to reduce false positives
 
-![Thresholding](<img width="870" height="606" alt="image" src="https://github.com/user-attachments/assets/b5c8cd6c-79d4-4adb-9035-543c1e0eb90d" />
+(<img width="870" height="606" alt="image" src="https://github.com/user-attachments/assets/b5c8cd6c-79d4-4adb-9035-543c1e0eb90d" />
 )
 
 ### 3. Region of Interest (ROI) Masking
@@ -38,7 +37,7 @@ This project detects the presence and location of kidney stones from ultrasound 
 - Bounding boxes drawn around detected stone regions
 - Displays "Stone Detected" or "No Stone Detected"
 
-![Detection Result](<img width="974" height="699" alt="image" src="https://github.com/user-attachments/assets/ff8e526e-132f-4dfc-b2b8-ddbed9dcb164" />
+(<img width="974" height="699" alt="image" src="https://github.com/user-attachments/assets/ff8e526e-132f-4dfc-b2b8-ddbed9dcb164" />
 )
 
 ---
@@ -47,7 +46,7 @@ This project detects the presence and location of kidney stones from ultrasound 
 
 A standalone MATLAB App (`KidneyStoneDetectionApp.mlapp`) was built for ease of use:
 
-![GUI Screenshot](<img width="700" height="551" alt="image" src="https://github.com/user-attachments/assets/40aed253-e34f-42f6-a9b4-70aaff62913d" />
+(<img width="700" height="551" alt="image" src="https://github.com/user-attachments/assets/40aed253-e34f-42f6-a9b4-70aaff62913d" />
 )
 
 ---
